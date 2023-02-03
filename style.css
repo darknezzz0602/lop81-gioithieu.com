@@ -1,0 +1,74 @@
+header{
+    margin: 0px;
+    background-image: url(Assets/Ảnh\ lớp\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    background-position: center;
+    padding: 70px;
+    box-shadow: black 0 0 15px;
+    
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin-top: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.displays figure{
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.displays figure img{
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+}
+
+div.displays figure{
+    
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+figure.dang img{
+    width: 400px;
+}
+
+figure.bao img{
+    height: 300px;
+}
+
+figure.hoang img{
+    width: 400px;
+    height: 250px;
+}
+
+figure.nghia img{
+    height: 300px;
+}
+
+figure.khang img{
+    height: 400px;
+    width: 200px;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 715px) {
+    header{
+        height: 200px;
+    }
+}
